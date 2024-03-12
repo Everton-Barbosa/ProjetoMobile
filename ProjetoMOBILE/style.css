@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
+    background-color: rgb(243, 237, 237);
 }
 
 .header {
@@ -29,6 +30,7 @@ body {
     background: rgb(219, 61, 61);
     border-radius: 10px;
     font-size: 0.9rem; 
+    color: rgb(226, 217, 217);
 }
 
 
@@ -40,21 +42,27 @@ body {
     display: inline-block;
     width: 350px;
     height: 150px;
-    background: green;
+    background: url(images/Group\ 237718.png) center top;
     border-radius: 20px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
     
 }
 
 .dentro {
-    background: blue;
+    background: rgb(248, 248, 253);
     width: 300px ;
     height: 40px;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left: 25px;
     border-radius: 10px;
+    opacity: 50%;
 }
 
 h3 {
+    font-family: "Angkor", serif;
+    color: rgb(39, 39, 39);
+    letter-spacing: 0.1rem;
     text-align: center;
     padding: 4px; 
     border-top: 1px solid black;
@@ -77,15 +85,16 @@ h5 {
     margin-left: 0px;
     width: 120px;
     height: 170px;
-    background-color: aqua;
+    background-image: url("images/imagem4.png");
     border-radius: 10px;
 }
+
 
 .espaço2 {
     margin-left: 10px;
     width: 120px;
     height: 170px;
-    background-color: aqua;
+    background-image: url("images/imagem3.png")   ;
     border-radius: 10px;
 }
 
@@ -93,7 +102,7 @@ h5 {
     margin-left: 10px;
     width: 120px;
     height: 170px;
-    background-color: aqua;
+    background-image:url(images/imagem5.png);
     border-radius: 10px;
 }
 
@@ -107,7 +116,7 @@ h5 {
     margin-left: 0px;
     width: 120px;
     height: 170px;
-    background-color: aqua;
+    background-image: url(images/imagem6.png);
     border-radius: 10px;
 }
 
@@ -115,7 +124,7 @@ h5 {
     margin-left: 10px;
     width: 120px;
     height: 170px;
-    background-color: aqua;
+    background-image: url(images/imagem7.png);
     border-radius: 10px;
 }
 
@@ -123,17 +132,22 @@ h5 {
     margin-left: 10px;
     width: 120px;
     height: 170px;
-    background-color: aqua;
+    background-image: url(images/imagem8.png);
     border-radius: 10px;
     
 }
 
 .dentro2 {
-    background: rgb(241, 241, 241);
+    background: rgb(219, 61, 61);
     width: 90px ;
     height: 20px;
+    margin-top: 130px;
     margin-left: 13px;
-    border-radius: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 0.7rem;
+    font-family: "Angkor", serif;
+    color: rgba(17, 17, 17, 0.87);
 }
 .comentarios {
     display: flex;
