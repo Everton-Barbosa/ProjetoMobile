@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(243, 237, 237);
+}
+
+.header {
+    display: inline-flex;
+}
+
+.logo {
+    font-family: "Angkor", serif;
+    width: 150px;
+    display: inline-flex;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+.vermelho {
+   color: rgb(219, 61, 61);
+}
+
+.canto {
+    font-family: "Angkor", serif;
+    width: 90px;
+    display: inline-flex; 
+    margin-top: 5px;
+    margin-left: 135px;
+    background: rgb(219, 61, 61);
+    border-radius: 10px;
+    font-size: 0.9rem; 
+    color: rgb(238, 236, 236);
+}
+
+
+
+
+.quadradoInicial {
+    margin-top: 20px;
+    margin-left: 19px ;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    background: url(images/Group\ 237718.png) center top;
+    border-radius: 20px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+.dentro {
+ 
+    width: 300px ;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 25px;
+    border-radius: 10px;
+    opacity: 50%;   
+    background: rgb(248, 248, 253);
+}
+
+.line {
+    font-family: "Angkor", serif;
+    color: rgb(39, 39, 39);
+    letter-spacing: 0.2rem;
+    text-align: center;
+    padding: 4px; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.principal {
+    display: flex;
+    margin-left: 5px
+}
+
+.espaço1 {
+    margin-left: 0px;
+    width: 120px;
+    height: 170px;
+    background-image: url("images/imagem4.png");
+    border-radius: 10px;
+}
+
+
+.espaço2 {
+    margin-left: 10px;
+    width: 120px;
+    height: 170px;
+    background-image: url("images/imagem3.png")   ;
+    border-radius: 10px;
+}
+
+.espaço3 {
+    margin-left: 10px;
+    width: 120px;
+    height: 170px;
+    background-image:url(images/imagem5.png);
+    border-radius: 10px;
+}
+
+.principal2 {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 5px
+}
+
+.espaço4 {
+    margin-left: 0px;
+    width: 120px;
+    height: 170px;
+    background-image: url(images/imagem6.png);
+    border-radius: 10px;
+}
+
+.espaço5 {
+    margin-left: 10px;
+    width: 120px;
+    height: 170px;
+    background-image: url(images/imagem7.png);
+    border-radius: 10px;
+}
+
+.espaço6 {
+    margin-left: 10px;
+    width: 120px;
+    height: 170px;
+    background-image: url(images/imagem8.png);
+    border-radius: 10px;
+    
+}
+
+.dentro2 {
+    background: rgb(219, 61, 61);
+    width: 90px ;
+    height: 20px;
+    margin-top: 130px;
+    margin-left: 13px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 0.7rem;
+    font-family: "Angkor", serif;
+    color: rgba(17, 17, 17, 0.87);
+}
+
+.logo2 {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.barraPesquisa {
+    margin-top: 5px;
+    float: right;
+    margin-right: 7px;
+    
+}
+
+.line2 {
+    font-family: "Angkor", serif;
+    color: rgb(39, 39, 39);
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 4px; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid rgb(82, 81, 81);
+    padding: 5px;
+}
+
+.principal3 {
+    margin-bottom: 20px;
+}
+
+
+.quadrado1 {
+    display: flex;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}
+
+.section1 {
+    width: 170px;
+    height: 130px;
+    margin-left: 10px;
+    background-image: url(images/local1.png);
+    border-radius: 20px;
+    
+}
+
+.inside {
+    background-color: rgb(214, 214, 214);
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 35px;
+    text-align: center;
+    font-family: "Angkor", serif;
+    font-size: 0.8rem;
+    border: 1px solid black;
+}
+
+.section2 {
+    width: 170px;
+    height: 130px;
+    margin-left: 15px;
+    background-image: url(images/local8.png);
+    border-radius: 20px;
+}
+
+.quadrado2 {
+    display: flex;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}
+
+.section3 {
+    width: 170px;
+    height: 130px;
+    margin-left: 10px;
+    background-image: url(images/local3.png);
+    border-radius: 20px;
+}
+
+.section4 {
+    width: 170px;
+    height: 130px;
+    margin-left: 15px;
+    background-image: url(images/local4.png);
+    border-radius: 20px;
+}
+
+.quadrado3 {
+    display: inline-flex;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}
+
+.section5 {
+    width: 170px;
+    height: 130px;
+    margin-left: 10px;
+    background-image: url(images/local5.png);
+    border-radius: 20px;
+}
+
+.section6 {
+    width: 170px;
+    height: 130px;
+    margin-left: 15px;
+    background-image: url(images/local6.png);
+    border-radius: 20px;
+}
+
+.quadrado4 {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+
+.section7 {
+    width: 170px;
+    height: 130px;
+    margin-left: 10px;
+    background-image: url(images/local7.png);
+    border-radius: 20px;
+}
+
+.section8 {
+    width: 170px;
+    height: 130px;
+    margin-left: 15px;
+    background-image: url(images/local2.png);
+    border-radius: 20px;
+}
+
+/* .gigante {
+    height: 70px;
+    width: 400px;
+    background-color: rgb(190, 187, 187);
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+} */
+
+
+.gigante2 {
+    margin-left: 15px;
+    width: 355px;
+    height: 130px;
+    background-image: url(images/anuncio.png);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+
+}
+
+.gigante2 p {
+    color: rgb(211, 212, 212);
+    margin-left: 10px;
+    
+}
+
+
+.quadrado5 {
+    width: 375px;
+    background-image: url(images/sorvete.png);
+    height: 170px;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.coment {
+    display: flex;
+    margin-bottom: 10 px;
+    margin-left: 8px;
+}
+
+.coment1 {
+    margin: 0 30px 0 25px ;
+    text-align: left;
+    background: rgb(214, 214, 214);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.photo1 {
+    background-color: aliceblue;
+    width: 120px;
+}
+
+
+.coment2 {
+    display: flex;
+    margin-left: 8px;
+    
+}
+
+.coment3 {
+   width: 150px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+  
+   
+}
+
+.coment3 h4 {
+    background-color: rgb(219, 61, 61);
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.photo2 {
+    margin-top: 20px;
+    width: 270px;
+    background-image: url(images/sorvete2.png);
+    height: 150px;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.retangulo {
+    width: 375px;
+    height: 150px;
+    margin-left: 8px;
+}
+
+iframe {
+    width: 375px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
