@@ -287,13 +287,14 @@ input {
     border-radius: 20px;
 }
 
-.gigante {
+/* .gigante {
     height: 70px;
-    width: 200px;
-    background-color: red;
+    width: 400px;
+    background-color: rgb(190, 187, 187);
     margin-bottom: 20px;
-    display: flex;
-}
+    margin-top: 20px;
+   
+} */
 
 
 .gigante2 {
@@ -304,26 +305,40 @@ input {
     border-radius: 20px;
     margin-bottom: 15px;
     border: 2px solid black;
+
+}
+
+.gigante2 p {
+    color: rgb(211, 212, 212);
+    margin-left: 10px;
+    
 }
 
 
 .quadrado5 {
     width: 375px;
-    background-color: black;
+    background-image: url(images/sorvete.png);
     height: 170px;
     border-radius: 20px;
     margin-left: 7px;
     margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .coment {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10 px;
     margin-left: 8px;
 }
 
 .coment1 {
-    width: 250px;
+    margin: 0 30px 0 25px ;
+    text-align: left;
+    background: rgb(214, 214, 214);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
     
 }
 
@@ -343,20 +358,37 @@ input {
    width: 150px;
     margin-left: 15px;
     margin-right: 5px;
+    margin-bottom: 25px;
+  
    
+}
+
+.coment3 h4 {
+    background-color: rgb(219, 61, 61);
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 5px;
 }
 
 .photo2 {
     margin-top: 20px;
     width: 270px;
-    background-color: aliceblue;
+    background-image: url(images/sorvete2.png);
     height: 150px;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .retangulo {
     width: 375px;
-    background-color: blueviolet;
     height: 150px;
     margin-left: 8px;
 }
 
+iframe {
+    width: 375px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
