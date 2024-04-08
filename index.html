@@ -18,15 +18,26 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+		<link rel="manifest" href="manifest.json">
+		<script>
+			if (typeof navigator.serviceWorker !== 'undefined') {
+				navigator.serviceWorker.register('pwabuilder-sw.js')
+			}
+		</script>
 	</head>
 	<body>
 		<header id="header">
-			<section class="logo"> <span class="material-symbols-outlined">
-				pin_drop
-				</span> Food<span class="vermelho">MaP</span> </section>
-			<section class="canto"> <span class="material-symbols-outlined">
-				person
-				</span>Entrar</section>
+			<section class="logo">
+				<div class="foodmap-logo">
+					<span class="material-symbols-outlined">pin_drop</span>
+					Food<span class="vermelho">MaP</span>
+				</div>
+				<section class="canto"> <span class="material-symbols-outlined">
+					person
+					</span>Entrar
+				</section>
+			</section>
+			
 			<section class="quadradoInicial">
 				<section class="dentro">
 					
@@ -84,32 +95,33 @@
 	</section> -->
 
 
-		<section class="quadrado1">
-			<section class="section1">
-				<section class="inside">Lanchonetes</section>
+		<section class="quadrados-wrapper">
+			<section class="quadrado1">
+				<section class="section1">
+					<section class="inside">Lanchonetes</section>
+				</section>
+				<section class="section2"><section class="inside">Pastelarias</section></section>
 			</section>
-			<section class="section2"><section class="inside">Pastelarias</section></section>
-		</section>
-
-		<section class="quadrado2">
-			<section class="section3"><section class="inside">Restaurantes</section></section>
-			<section class="section4"><section class="inside">Docerias</section></section>
-		</section>
-
-		<section class="quadrado3">
-			<section class="section5"><section class="inside">Bebidas</section></section>
-			<section class="section6"><section class="inside">Sorveterias</section></section>
-		</section>
-
-		<section class="quadrado4">
-			<section class="section7"><section class="inside">Pizzarias</section></section>
-			<section class="section8"><section class="inside">Hamburguers</section></section>
+			<section class="quadrado2">
+				<section class="section3"><section class="inside">Restaurantes</section></section>
+				<section class="section4"><section class="inside">Docerias</section></section>
+			</section>
+			<section class="quadrado3">
+				<section class="section5"><section class="inside">Bebidas</section></section>
+				<section class="section6"><section class="inside">Sorveterias</section></section>
+			</section>
+			<section class="quadrado4">
+				<section class="section7"><section class="inside">Pizzarias</section></section>
+				<section class="section8"><section class="inside">Hamburguers</section></section>
+			</section>
 		</section>
 
 		<hr>
-		<section class="gigante2">	
-			<p>Anúncio</p>
-		</section>
+		<div class="anuncio">
+			<section class="gigante2">
+				<p>Anúncio</p>
+			</section>
+		</div>
 
 
 		<section id="bla">
@@ -117,9 +129,10 @@
 			<h3 class="line2">Ache o restaurante perfeito!</h3>
 		</section>
 		</section>
-		<section class="quadrado5">
-
-		</section>
+		<div class="anuncio">
+			<section class="quadrado5">
+			</section>
+		</div>
 
 	<section class="coment">
 		<section class="coment1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores minima eligendi totam! Ea culpa earum praesentium!</section>

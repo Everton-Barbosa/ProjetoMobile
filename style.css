@@ -1,19 +1,28 @@
-body {
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
     font-family: "Open Sans", sans-serif;
     background-color: rgb(243, 237, 237);
 }
 
-.header {
-    display: inline-flex;
+header {
+    width: 100%;
+    padding: 20px 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
+    width: 100%;
     font-family: "Angkor", serif;
-    width: 150px;
-    display: inline-flex;
-    margin-left: 5px;
-    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
     font-size: 1.1rem;
 }
 
@@ -24,37 +33,36 @@ body {
 .canto {
     font-family: "Angkor", serif;
     width: 90px;
-    display: inline-flex; 
-    margin-top: 5px;
-    margin-left: 135px;
+
+    display: flex;
+    align-items: center;
+
     background: rgb(219, 61, 61);
     border-radius: 10px;
     font-size: 0.9rem; 
     color: rgb(238, 236, 236);
+    cursor: pointer;
 }
 
 
 
 
 .quadradoInicial {
-    margin-top: 20px;
-    margin-left: 19px ;
-    display: inline-block;
-    width: 350px;
+    width: 100%;
     height: 150px;
+    margin-block: 20px;
     background: url(images/Group\ 237718.png) center top;
     border-radius: 20px;
     border-bottom: 3px solid black;
     border-right: 3px solid black;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .dentro {
- 
-    width: 300px ;
+    width: 300px;
     height: 40px;
     margin-top: 100px;
-    margin-left: 25px;
     border-radius: 10px;
     opacity: 50%;   
     background: rgb(248, 248, 253);
@@ -79,63 +87,73 @@ h5 {
 
 .principal {
     display: flex;
-    margin-left: 5px
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 0 2%;
 }
 
 .espaço1 {
-    margin-left: 0px;
     width: 120px;
     height: 170px;
     background-image: url("images/imagem4.png");
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
 .espaço2 {
-    margin-left: 10px;
     width: 120px;
     height: 170px;
     background-image: url("images/imagem3.png")   ;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .espaço3 {
-    margin-left: 10px;
     width: 120px;
     height: 170px;
     background-image:url(images/imagem5.png);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .principal2 {
-    margin-top: 15px;
     display: flex;
-    margin-left: 5px
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 0 2%;
 }
 
 .espaço4 {
-    margin-left: 0px;
     width: 120px;
     height: 170px;
     background-image: url(images/imagem6.png);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .espaço5 {
-    margin-left: 10px;
     width: 120px;
     height: 170px;
     background-image: url(images/imagem7.png);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .espaço6 {
-    margin-left: 10px;
     width: 120px;
     height: 170px;
     background-image: url(images/imagem8.png);
     border-radius: 10px;
-    
+    cursor: pointer;
+}
+
+.quadrados-wrapper{
+    display: grid;
+    justify-content: center;
+    padding: 0 2%;
 }
 
 .dentro2 {
@@ -190,6 +208,7 @@ input {
     display: flex;
     margin-bottom: 12px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .section1 {
@@ -225,6 +244,7 @@ input {
     display: flex;
     margin-bottom: 12px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .section3 {
@@ -247,6 +267,7 @@ input {
     display: inline-flex;
     margin-bottom: 12px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .section5 {
@@ -269,6 +290,7 @@ input {
     display: flex;
     margin-bottom: 20px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .section7 {
@@ -296,16 +318,22 @@ input {
    
 } */
 
+.anuncio {
+    display: flex;
+    justify-content: center;
+    padding: 0 2%;
+}
 
 .gigante2 {
-    margin-left: 15px;
+    display: flex;
+    justify-content: center;
     width: 355px;
     height: 130px;
     background-image: url(images/anuncio.png);
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-block: 20px;
     border: 2px solid black;
-
+    cursor: pointer;
 }
 
 .gigante2 p {
@@ -320,16 +348,16 @@ input {
     background-image: url(images/sorvete.png);
     height: 170px;
     border-radius: 20px;
-    margin-left: 7px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    cursor: pointer;
 }
 
 .coment {
     display: flex;
-    margin-bottom: 10 px;
-    margin-left: 8px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .coment1 {
@@ -350,8 +378,10 @@ input {
 
 .coment2 {
     display: flex;
-    margin-left: 8px;
-    
+    padding: 0 2%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .coment3 {
@@ -381,9 +411,11 @@ input {
 }
 
 .retangulo {
-    width: 375px;
-    height: 150px;
-    margin-left: 8px;
+    width: 100%;
+    padding: 20px 2%;
+    display: flex;
+    justify-content: center;
+
 }
 
 iframe {
