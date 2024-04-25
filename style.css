@@ -394,7 +394,7 @@ input {
 }
 
 .coment3 h4 {
-    background-color: rgb(219, 61, 61);
+    background-color: #db3d3d;
     border-radius: 20px;
     text-align: center;
     margin-right: 5px;
@@ -418,9 +418,60 @@ input {
 
 }
 
-iframe {
-    width: 375px;
-    height: 150px;
-    border-radius: 20px;
-    border: 3px solid rgb(0, 0, 0);
+#map {
+    width: 80%;
+    height: 100vh;
+    margin: 30px auto;
+}
+
+.avaliacoes {
+    width: 100%;
+    padding: 20px 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.avaliacao img {
+    width: 300px;
+    height: 400px;
+}
+
+.avaliacao {
+    width: 300px;
+}
+
+form {
+    width: 100%;
+    padding: 20px 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+form > input {
+    width: 300px;
+    border-radius: 0;
+    padding-block: 15px;
+}
+
+form > textarea {
+    width: 300px;
+    border-radius: 0;
+    padding: 15px;
+    height: 100px;
+}
+
+form > button[type=submit] {
+    border: none !important;
+    padding: 20px 30px;
+    background-color: #db3d3d;
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
 }

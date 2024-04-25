@@ -1,0 +1,56 @@
+ [
+  {
+    "nome": "Casa do Pará (Pina)",
+    "latitude": -8.093116828497827, 
+    "longitude": -34.883272078294546,
+    "endereco": "R. Souto Filho, 96 - Pina, Recife - PE, 51011-170"
+  },
+  {
+    "nome": "Panda´s House",
+    "latitude": -8.091353575432034, 
+    "longitude": -34.8831191923653,
+    "endereco": "Av. Herculano Bandeira, 115 Polo Pina - Pina, Recife - PE, 51110-131"
+  },
+  {
+    "nome": "Caldinho do Nenen - Pina",
+    "latitude": -8.087585393270139, 
+    "longitude": -34.88955304018043,
+    "endereco": "R. Nogueira de Souza, 375 - Pina, Recife - PE, 51110-110"
+  },
+  {
+    "nome": "Almoço Pina",
+    "latitude": -8.095187056853975,  
+    "longitude": -34.88559403743361,
+    "endereco": "R. Pereira da Costa - Pina, Recife - PE, 51110-020"
+  },
+  {
+    "nome": "Entre Amigos Praia",
+    "latitude": -8.098222925286546,   
+    "longitude": -34.88406584887509,
+    "endereco": "Av. Boa Viagem, 760 - Boa Viagem, Recife - PE, 51011-000"
+  },
+  {
+    "nome": "LA NA COZINHA",
+    "latitude": -8.09697992363661,    
+    "longitude": -34.8864308866293,
+    "endereco": "Av. Eng. Domingos Ferreira, 844 - Pina, Recife - PE, 51011-050"
+  },
+  {
+    "nome": "Galeto Pekin",
+    "latitude": -8.099267539425657,     
+    "longitude": -34.88578439414885,
+    "endereco": "R. Tomé Gibson, 153 - Pina, Recife - PE, 51011-480"
+  },
+  {
+    "nome": "Panela Velha",
+    "latitude": -8.088432845979266,      
+    "longitude": -34.88478163447835,
+    "endereco": "R. Miranda Falcão, 63 - Pina, Recife - PE, 51110-060"
+  },
+  {
+    "nome": "Fidalgo Restaurante",
+    "latitude": -8.095550321252338,       
+    "longitude": -34.8841935408206,
+    "endereco": "R. Cap. Rebelinho, 520 - Pina, Recife - PE, 51011-010"
+  }
+]
